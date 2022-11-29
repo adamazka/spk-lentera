@@ -1,0 +1,71 @@
+**CSS**
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-text {
+  font-size: 200px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-404 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+/* Left*/
+.left {
+  background-color: tomato;
+  width: 100%;
+  height: 100vh;
+}
+
+.heading-text-left h1 {
+  font-size: 200px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  margin: 450px 0;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* Heading Narator*/
+.heading-narator {
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 100px 0px;
+}
+
+/* Heading Narator*/
+.error-message {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  padding: 90px 0px;
+}
+
+/* SUB TEXT*/
+.sub-text {
+  padding: 50px;
+  font-family: 'Montserrat';
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  width: 750px;
+  text-align: justify;
+}
+
+/* END SUB TEXT*/
+/*# sourceMappingURL=404styles.css.map */
